@@ -1,4 +1,7 @@
 package JZOffer;
+
+import java.util.Stack;
+
 /*
 
 剑指Offer 09.用两个栈实现队列
@@ -22,7 +25,6 @@ package JZOffer;
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
 */
-import java.util.*;
 class CQueue {
     // 维护两个栈分别储存进入队列和弹出队列的元素
     private Stack<Integer> stackIn;

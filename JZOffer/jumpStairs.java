@@ -48,4 +48,5 @@ public class jumpStairs {
         return ans;
     }
     // 参考: 剑指 Offer 10- I. 斐波那契数列
+    // 道理我都懂，但是为什么0级的台阶还要有1种跳法，这青蛙在原地托马斯回环吗
 }

@@ -54,7 +54,7 @@ public class routeInAMatrix {
     
     public boolean dfs(char[][] board, char[] chars, boolean[][] visited, int i, int j, int cur) {
         // 字母不符合要求直接false
-        if(visited[i][j] || i < 0 || j < 0 || i >= board.length || j >= board[0].length || chars[cur] != board[i][j]) {
+        if(i < 0 || j < 0 || i >= board.length || j >= board[0].length || visited[i][j] || chars[cur] != board[i][j]) {
             return false;
         }
         // 长度已经达到word长度则返回true
